@@ -15,7 +15,14 @@ const Contact = () => {
 
   const submithandler =  async() => {
     // console.log(name,email,number,message)
-let result =await fetch("http://localhost:8000/message",{
+
+
+    // live ke liye ===>https://portpoliomain-1.onrender.com/message
+
+// update ke liye==>http://localhost:8000/message
+
+
+let result =await fetch("https://portpoliomain-1.onrender.com/message",{
   method:"post",
   body:JSON.stringify({name,email,number,message}),
   headers:{
