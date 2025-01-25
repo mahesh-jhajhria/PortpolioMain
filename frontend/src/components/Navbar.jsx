@@ -13,9 +13,13 @@ function Navbar() {
       {/* Navigation Links */}
       <div className="hidden md:flex space-x-4">
         <a href="#" className="text-white hover:text-blue-300" >HOME</a>
-        <a href="#" className="text-white hover:text-blue-300">PROJECTS</a>
+        <a href="#" className="text-white hover:text-blue-300"> <Link 
+        smooth={true}
+        duration={1000}
+        to="projects"> PROJECTS </Link></a> 
         <a href="#" className="text-white hover:text-blue-300">RESUME</a>
-        <a href="#" className="text-white hover:text-blue-300"><Link 
+        <a href="#" className="text-white hover:text-blue-300">
+          <Link 
         smooth={true}
         duration={1000}
         to="contactus">CONTACT</Link></a>

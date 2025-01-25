@@ -14,6 +14,7 @@ import Contact from './Contact';
 import Projects from "./Projects";
 
 
+
 function Home() {
    
   return (
@@ -113,6 +114,8 @@ function Home() {
   </div>
   
   <Projects/>
+
+ 
 
   <Contact/>
  
