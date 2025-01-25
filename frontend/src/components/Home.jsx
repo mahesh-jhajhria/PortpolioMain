@@ -11,6 +11,7 @@ import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import Contact from './Contact';
+import Projects from "./Projects";
 
 
 function Home() {
@@ -110,6 +111,8 @@ function Home() {
     
     </ul>
   </div>
+  
+  <Projects/>
 
   <Contact/>
  

@@ -1,12 +1,13 @@
 import React from 'react'
-
+import logo from "../../public/logo.png";
+import { Link } from 'react-scroll';
 function Navbar() {
   return (
     <nav className="bg-blue-500 p-4">
     <div className="container mx-auto flex justify-between items-center">
       {/* Logo */}
-      <a href="#" className="text-white text-2xl font-bold">
-        Logo
+      <a href="#" className="text-white -mt-3 -mb-3 font-bold">
+        <img className='w-[70px] h-[70px] bg-green-100 rounded-full'  src={logo} alt='#'/>
       </a>
 
       {/* Navigation Links */}
@@ -14,7 +15,10 @@ function Navbar() {
         <a href="#" className="text-white hover:text-blue-300" >HOME</a>
         <a href="#" className="text-white hover:text-blue-300">PROJECTS</a>
         <a href="#" className="text-white hover:text-blue-300">RESUME</a>
-        <a href="#" className="text-white hover:text-blue-300">CONTACT</a>
+        <a href="#" className="text-white hover:text-blue-300"><Link 
+        smooth={true}
+        duration={1000}
+        to="contactus">CONTACT</Link></a>
       </div>
 
       {/* Mobile Menu Button */}
