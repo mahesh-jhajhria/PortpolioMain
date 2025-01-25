@@ -20,7 +20,7 @@ function Home() {
   <div>
   <div className="bg-blue-300 w-full  h-auto grid lg:grid-cols-2 grid-cols-1">
     <div className="w-full lg:h-[350px] flex justify-center">
-      <img className="w-[200px] h-[150px] lg:w-[250px] lg:h-[290px] rounded-lg mt-5 lg:mt-7" src={image} />
+      <img className="w-[210px] h-[250px] lg:w-[250px] lg:h-[290px] rounded-lg mt-5 lg:mt-7" src={image} />
     </div>
     <div className="w-full flex flex-col items-center lg:items-start p-5 lg:p-0  lg:mt-10">
       <p className="text-[16px] lg:text-[20px] text-white font-serif">Hello, my name is</p>
@@ -110,6 +110,8 @@ function Home() {
     
     </ul>
   </div>
+
+  <Contact/>
  
 
   <div className="w-full bg-blue-300 flex flex-col items-center mt-5 p-5">
